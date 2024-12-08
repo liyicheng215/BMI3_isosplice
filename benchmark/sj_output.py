@@ -110,7 +110,6 @@ def extract_splice_sites(gtf_file, verbose=False, csv_file=None):
                 writer.writerow(['Intron avg. length', sum(intron_lengths.elements()) // sum(intron_lengths.values())])
                 writer.writerow(['Average number of exons per transcript', sum(exon_lengths.values()) // len(trans)])
 
-                # 写入内含子详细信息
                 writer.writerow([])
                 writer.writerow(['Chromosome', 'Start', 'End', 'Strand'])
 
