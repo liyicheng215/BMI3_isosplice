@@ -17,7 +17,7 @@ The software is available on GitHub: [BMI3 IsoSplice Repository](https://github.
   - [simplifyDAG Command](#simplifydag-command)
   - [scoreSJ Command](#scoresj-command)
 - [Input and Output Details](#input-and-output-details)
-
+- [Extra](#Extra)
 ---
 
 ## Installation
@@ -26,7 +26,7 @@ Clone the repository using the following command:
 
 ```bash
 git clone https://github.com/liyicheng215/BMI3_isosplice
-cd BMI3_isosplice
+cd BMI3_isosplice/src
 ```
 
 Ensure Python is installed along with the required dependencies (specified in the `requirements.txt` file).
@@ -110,3 +110,7 @@ To run the software, ensure you have a pre-sorted BAM file. Execute the commands
    - **Output**: `scored_cluster_score.csv`.
 
 ---
+
+## Extra
+You can use the .sh file in isosplice/data to generate yasim stimulated data
+You can use the .py file in isosplice/benchmark to look at the benchmark of the output
