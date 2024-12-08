@@ -112,5 +112,6 @@ To run the software, ensure you have a pre-sorted BAM file. Execute the commands
 ---
 
 ## Extra
-You can use the .sh file in isosplice/data to generate yasim stimulated data
+You can use the .sh file in isosplice/data to generate yasim stimulated data.
+
 You can use the .py file in isosplice/benchmark to look at the benchmark of the output
